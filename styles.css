@@ -4,6 +4,34 @@
     justify-content: space-evenly;
   }
 
+
+  .mainPage {
+    background-image: url('dogPark.jpg');
+    background-repeat: no-repeat;
+
+    /* cover, contain, auto,  */
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+
+  #detailsBG {
+    background-color: burlywood;
+  }
+
+  #image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 5px solid #a5351c;
+  }
+  #singleImage {
+    margin-top: 25px;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    border: 5px solid #a5351c;
+  }
+
   .single-player-card {
     flex-basis: 200px;
     flex-grow: 1;
@@ -54,3 +82,4 @@
 
   .single-player-view > p {
     margin: 10px 0px 0px 0px;
+  }
