@@ -67,14 +67,15 @@
 
   .pup-number {
     font-style: italic;
+    
   }
 
   .single-player-view {
     flex-basis: 500px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
     margin: 5px 10px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 8px;
+    border-radius: 8px;
 
     display: flex;
     flex-direction: column;
@@ -83,6 +84,14 @@
   .single-player-view > p {
     margin: 10px 0px 0px 0px;
   }
-  .color{
-    color: blue;
+ .color{
+    color: #a5351c;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white; 
+    font-size: larger;
+    background-color: blanchedalmond;
+  }
+  .input{
+    color: #a5351c;
   }

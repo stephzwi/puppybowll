@@ -202,12 +202,12 @@ const renderNewPlayerForm = () => {
     try {
         let newPlayerForm = `
         <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Name">
-        <label for="breed">Breed</label>
-        <input type="text" id="breed" name="breed" placeholder="Breed">
-        <label for="imageUrl">Image URL</label>
-        <input type="text" id="imageUrl" name="imageUrl" placeholder="Image URL">
+        <label class= "color" for="name">Name</label>
+        <input class= "input" type="text" id="name" name="name" placeholder="Name">
+        <label class= "color" for="breed">Breed</label>
+        <input class= "input" type="text" id="breed" name="breed" placeholder="Breed">
+        <label class= "color" for="imageUrl">Image URL</label>
+        <input class= "input" type="text" id="imageUrl" name="imageUrl" placeholder="Image URL">
         <button type="submit">Add Player</button>
         </form>
         `;
